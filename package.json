@@ -1,0 +1,17 @@
+{
+  "name": "mern-integration-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^10.2.4",
+    "react-dom": "^19.1.0"
+  }
+}
